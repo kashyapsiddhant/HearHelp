@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@drawable/background_animated">
+
+
+    <Button
+        android:id="@+id/buttonOpenWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg"
+        android:text="Open Website" />
+
+    <Button
+            android:id="@+id/buttonSendEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send Email"
+            android:layout_below="@id/buttonOpenWebsite"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_bg"/>
+
+        <Button
+            android:id="@+id/buttonOpenGoogleMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Google Maps"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/buttonSendEmail"
+            android:background="@drawable/button_bg"/>
+
+
+        <Button
+            android:id="@+id/buttonOpenGoogleContacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Google Contacts"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/buttonOpenGoogleMaps"
+            android:background="@drawable/button_bg"/>
+
+</RelativeLayout>
